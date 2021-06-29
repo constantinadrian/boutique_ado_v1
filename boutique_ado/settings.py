@@ -177,5 +177,6 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Stripe
+STRIPE_CURRENCY = 'usd'
 STRIPE_PUBLIC_KEY = os.environ.get("STRIPE_PUBLIC_KEY", '')
-STRIPE_CLIENT_SECRET = os.environ.get("STRIPE_CLIENT_SECRET", '')
+STRIPE_SECRET_KEY = os.environ.get("STRIPE_SECRET_KEY", '')
